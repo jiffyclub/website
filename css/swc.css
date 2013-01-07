@@ -290,4 +290,35 @@ table.bootcamps td.date {
     text-align: right;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    background-color: #20267D;
+    color: white;
+    border: 3px solid #8D8D8D;
+    border-radius: 100px;
+    padding: 9px 9px 9px 20px;
+}
 
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+    color: white;
+    text-decoration: none;
+}
+
+h1 a:hover,
+h2 a:hover,
+h3 a:hover,
+h4 a:hover,
+h5 a:hover,
+h6 a:hover {
+    color: rgb(200, 200, 200);
+    text-decoration: underline;
+}
