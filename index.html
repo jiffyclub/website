@@ -27,13 +27,16 @@
 
 {% block content %}
 
-<div align="center">
-  <img src="{{root_path}}/img/bootcamps/2012-12-uta.png" alt="Boot Camp at the University of Texas, 2012" />
-  <h3><em>What I cannot create, I do not understand.<br />&mdash; Richard Feynman</em></h3>
+<div class="hero-unit" style="text-align: center;">
+  <img class="img-rounded" src="{{root_path}}/img/bootcamps/2012-12-uta.png" alt="Boot Camp at the University of Texas, 2012" />
+  <strong style="display: block; line-height: 35px; font-size: 25px;">
+    <em>
+      What I cannot create, I do not understand.<br />&mdash; Richard Feynman
+    </em>
+  </strong>
 </div>
 
-<div class="row">
-
+<div class="row-fluid">
   <div class="span6">
     <h4>Our Mission</h4>
     <p>
@@ -44,28 +47,9 @@
       The benefits are more reliable results and higher productivity:
       a day a week is common, and a ten-fold improvement isn't rare.
     </p>
-
-    <h4>Who We Are</h4>
-    <p>
-      Software Carpentry is a volunteer organization supported by
-      the <a href="http://www.sloan.org">Alfred P. Sloan Foundation</a>
-      and the <a href="http://www.mozilla.org">Mozilla Foundation</a>.
-      Come and meet <a href="{{root_path}}/about/credits.html">our sponsors</a>
-      and <a href="{{root_path}}/about/team.html">our team</a>.
-    </p>
-
-    <h4>Testimonials</h4>
-    <p>
-      Can Software Carpentry help you?
-      These <a href="{{root_path}}/about/testimonials.html">stories from past participants</a>
-      and our <a href="{{root_path}}/about/audience.html">descriptions of typical learners</a>
-      can help you decide.
-    </p>
-
   </div>
 
   <div class="span6">
-
     <h4>Boot Camps</h4>
     <p>
       Our boot camps cover the core skills every scientist needs to get
@@ -76,7 +60,22 @@
       <a href="{{root_path}}/bootcamps/index.html#calendar">our calendar</a>
       to find a boot camp near you.
     </p>
+  </div>
+</div>
 
+<div class="row-fluid">
+  <div class="span6">
+    <h4>Who We Are</h4>
+    <p>
+      Software Carpentry is a volunteer organization supported by
+      the <a href="http://www.sloan.org">Alfred P. Sloan Foundation</a>
+      and the <a href="http://www.mozilla.org">Mozilla Foundation</a>.
+      Come and meet <a href="{{root_path}}/about/credits.html">our sponsors</a>
+      and <a href="{{root_path}}/about/team.html">our team</a>.
+    </p>
+  </div>
+
+  <div class="span6">
     <h4>Learn Online</h4>
     <p>
       Our <a href="{{root_path}}/4_0/index.html">video lectures</a> cover
@@ -87,7 +86,21 @@
       of our material is also available,
       along with a <a href="{{root_path}}/about/biblio.html">reading list</a>.
     </p>
+  </div>
+</div>
 
+<div class="row-fluid">
+  <div class="span6">
+    <h4>Testimonials</h4>
+    <p>
+      Can Software Carpentry help you?
+      These <a href="{{root_path}}/about/testimonials.html">stories from past participants</a>
+      and our <a href="{{root_path}}/about/audience.html">descriptions of typical learners</a>
+      can help you decide.
+    </p>
+  </div>
+
+  <div class="span6">
     <h4>Join Us</h4>
     <p>
       There are many ways you can
@@ -97,12 +110,10 @@
       contributing new material,
       and more.
     </p>
-
   </div>
-
 </div>
 
-<div align="center">
+<div class="well well-small">
   <p>
     For more information, check out our
     <a href="{{root_path}}/blog/index.html">blog</a>,
