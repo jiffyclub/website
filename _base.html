@@ -15,17 +15,33 @@
 
 {% macro nav_left() -%}
   {% if page.prev %}
-    <li class="previous"><a id="id_prev_link" href="{{page.prev}}">&larr; Previous</a></li>
+    <li class="previous">
+      <a id="id_prev_link" href="{{page.prev}}">
+        <i class="icon-chevron-left"></i>
+      </a>
+    </li>
   {% else %}
-    <li class="previous"><a id="id_up_link" href="{{page.uplink}}">&uarr; Up</a></li>
+    <li class="previous">
+      <a id="id_up_link" href="{{page.uplink}}">
+        <i class="icon-chevron-up"></i>
+      </a>
+    </li>
   {% endif %}
 {%- endmacro %}
 
 {% macro nav_right() -%}
   {% if page.next %}
-    <li class="next"><a id="id_next_link" href="{{page.next}}">Next &rarr;</a></li>
+    <li class="next">
+      <a id="id_next_link" href="{{page.next}}">
+        <i class="icon-chevron-right"></i>
+      </a>
+    </li>
   {% else %}
-    <li class="next"><a id="id_up_link" href="{{page.uplink}}">&uarr; Up</a></li>
+    <li class="next">
+      <a id="id_up_link" href="{{page.uplink}}">
+        <i class="icon-chevron-up"></i>
+      </a>
+    </li>
   {% endif %}
 {%- endmacro %}
 
